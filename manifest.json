@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+
+	"name": "知乎邀请小助手",
+	"version": "1.0",
+	"description": "知乎邀请小助手，邀请特定用户回答您的问题。",
+	
+	"browser_action": {
+		"default_title": "知乎邀请小助手",
+		"default_popup": "popup.html"
+	},
+
+	"permissions": [
+        "tabs",
+		"https://www.zhihu.com/"
+    ]
+}
